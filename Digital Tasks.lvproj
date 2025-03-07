@@ -17,6 +17,7 @@
 			<Item Name="Digital Parse Configuration Parameters.vi" Type="VI" URL="../Utilities/Digital Parse Configuration Parameters.vi"/>
 		</Item>
 		<Item Name="Analog Input" Type="Folder"/>
+		<Item Name="Digital Output.lvlib" Type="Library" URL="../Digital Output/Digital Output.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
