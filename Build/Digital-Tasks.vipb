@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 22:49:23" Modified_Date="2025-03-09 10:59:02" Creator="Erik" Comments="" ID="beb0bb2b856a977d2247ef006632a7c6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 22:49:23" Modified_Date="2025-03-09 15:05:23" Creator="Erik" Comments="" ID="de5b2f22a2280338586d2f6a72d1ca08">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Digital_Tasks</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -228,7 +228,7 @@
         <Path>..\Source\Digital Output</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41756A7586D480DCFFB4BA14BA102184</GUID>
+      <GUID>B2B8B8CB4F28815D831E62847AAC4C6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -305,7 +305,7 @@
         <Path>..\Source\Digital Input\Digital Input\Digital Input\Parse Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9C29A83FB19092C8EAC9A1CC3F5826B</GUID>
+      <GUID>6996E3320C6B463EA9A79E7D34C1EF77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -382,7 +382,7 @@
         <Path>..\Source\Digital Output\Digital Output\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28905A4FE267E3B118612D08A85EF5BC</GUID>
+      <GUID>5D02F703939B3E5C9ADFC86D6FFC4D51</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -417,7 +417,7 @@
         <Path>..\Source\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4CAA6E7917AD86B1C3AF4A81AE28FC5</GUID>
+      <GUID>694B1A7F3224D07AF914E9E3E92DDC7F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -452,7 +452,7 @@
         <Path>..\Source\Palette\FP Digital Output.vi</Path>
         <VI_Title>Digital Output.lvclass</VI_Title>
       </Items_Data>
-      <GUID>EE2C3D7DB2EBE2253365232065B48C8E</GUID>
+      <GUID>7F8B9AA368B933A4A3162F342BF04473</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
