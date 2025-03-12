@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 22:49:23" Modified_Date="2025-03-12 09:22:14" Creator="Erik" Comments="" ID="847073b12113ae4717bcb011e5055ee6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-06 22:49:23" Modified_Date="2025-03-12 09:31:55" Creator="Erik" Comments="" ID="3dd5aa0d832368f76ade0c3af4b29190">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Digital_Tasks</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -242,7 +242,7 @@
         <Path>..\Source\unnamed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA9E965F4D8FC17260AFF2010B226EDD</GUID>
+      <GUID>3ACE9192188F8A0C09CB795E59EBD3D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -291,7 +291,7 @@
         <Path>..\Source\Digital Input\Digital Input\Digital Input\Add Task.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BD218650497E83C348B1BFCB9DBFC922</GUID>
+      <GUID>FE5816CE472C96CDE633364487F4993B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -368,7 +368,7 @@
         <Path>..\Source\Digital Output\Digital Output\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8947F60B44229CF3FF0502202994E875</GUID>
+      <GUID>57292D4EDB11CDB43E22BD356A1BE55D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -392,15 +392,15 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Waveform.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>Parse Digital Waveform.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\Source\Utilities\Parse Waveform.vi</Path>
+        <Path>..\Source\Utilities\Parse Digital Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -417,21 +417,7 @@
         <Path>..\Source\Utilities\Search Digital Waveform.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Parse Digital Waveform.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\Source\Utilities\Parse Digital Waveform.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>01C140F9CC991AFCF5C142366773CF79</GUID>
+      <GUID>8F93BF0F19613C9704BD229E90DA9676</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -466,7 +452,7 @@
         <Path>..\Source\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1AB2069EFCB36026D676D5325F503E69</GUID>
+      <GUID>47E1BB99D95756BE2E758D197186B16B</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +487,7 @@
         <Path>..\Source\Palette\FP Digital Output.vi</Path>
         <VI_Title>Digital Output.lvclass</VI_Title>
       </Items_Data>
-      <GUID>89DD1EECBBEF66E8288D934309751652</GUID>
+      <GUID>5FA5F62041C48750303AB3940DB467BC</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
