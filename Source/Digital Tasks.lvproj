@@ -15,16 +15,28 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Digital Configuration Parameters.ctl" Type="VI" URL="../Utilities/Digital Configuration Parameters.ctl"/>
 			<Item Name="Digital Parse Configuration Parameters.vi" Type="VI" URL="../Utilities/Digital Parse Configuration Parameters.vi"/>
-		</Item>
-		<Item Name="Digital Input" Type="Folder">
-			<Item Name="Digital Input Interface Messages.lvlib" Type="Library" URL="../Digital Input/Digital Input Interface Messages/Digital Input Interface Messages.lvlib"/>
-			<Item Name="Digital Input.lvlib" Type="Library" URL="../Digital Input/Digital Input/Digital Input.lvlib"/>
+			<Item Name="Search Digital Waveform.vi" Type="VI" URL="../Utilities/Search Digital Waveform.vi"/>
+			<Item Name="Parse Digital Waveform.vi" Type="VI" URL="../Utilities/Parse Digital Waveform.vi"/>
 		</Item>
 		<Item Name="Palette" Type="Folder">
 			<Item Name="BD Digital Output.vi" Type="VI" URL="../Palette/BD Digital Output.vi"/>
 			<Item Name="FP Digital Output.vi" Type="VI" URL="../Palette/FP Digital Output.vi"/>
 		</Item>
-		<Item Name="Digital Output.lvlib" Type="Library" URL="../Digital Output/Digital Output.lvlib"/>
+		<Item Name="Digital Input" Type="Folder">
+			<Item Name="Digital Input Interface Messages" Type="Folder">
+				<Item Name="Digital Input Signals Msg.lvclass" Type="LVClass" URL="../Digital Input/Digital Input Interface Messages/Digital Input Interface Messages Messages/Digital Input Signals Msg/Digital Input Signals Msg.lvclass"/>
+				<Item Name="Digital Input Interface Messages.lvclass" Type="LVClass" URL="../Digital Input/Digital Input Interface Messages/Digital Input Interface Messages/Digital Input Interface Messages.lvclass"/>
+			</Item>
+			<Item Name="Digital Input" Type="Folder">
+				<Item Name="Internal Messages" Type="Folder">
+					<Item Name="Acquire Digital Msg.lvclass" Type="LVClass" URL="../Digital Input/Digital Input/Digital Input Messages/Acquire Digital Msg/Acquire Digital Msg.lvclass"/>
+				</Item>
+				<Item Name="Digital Input.lvclass" Type="LVClass" URL="../Digital Input/Digital Input/Digital Input/Digital Input.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Digital Output" Type="Folder">
+			<Item Name="Digital Output.lvclass" Type="LVClass" URL="../Digital Output/Digital Output/Digital Output.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -234,16 +246,6 @@
 				<Item Name="DTbl Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Boolean Array.vi"/>
 				<Item Name="DWDT Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Boolean Array.vi"/>
 				<Item Name="Digital to Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Boolean Array.vi"/>
-				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
-				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
-				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
